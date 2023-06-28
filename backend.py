@@ -1,7 +1,7 @@
 import requests
 import os
 
-api_key = os.getenv("OPENWEATHERAPPAPI")
+api_key = os.getenv("OPENWEATHERAPPAPIKEY")
 
 
 def get_data(place, forecast_days):
